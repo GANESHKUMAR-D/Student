@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Student Registration Form</h1>
+
+  <form id="student-form">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="number" id="age" placeholder="Age" required>
+    <input type="text" id="roll" placeholder="Roll Number" required>
+    <input type="date" id="dob" placeholder="Date of Birth" required>
+    <input type="text" id="address" placeholder="Address" required>
+    <button type="submit">Add Student</button>
+    <button type="reset">Clear</button>
+  </form>
+
+  <h2>Student List</h2>
+  <table id="student-table">
+    <thead>
+      <tr>
+        <th>Name</th><th>Age</th><th>Roll</th><th>DOB</th><th>Address</th><th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
